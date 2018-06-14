@@ -11,3 +11,7 @@ test('String reverses', () => {
 test('String reverses with uppercase', () => {
   expect(reversestring('Hello')).toEqual('olleh')
 })
+
+test('String reverses with uppercase', () => {
+  expect(reversestring('Samuel')).toEqual('leumas')
+})
