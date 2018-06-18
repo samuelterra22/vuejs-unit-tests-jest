@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "testwatch": "jest --watchAll"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:coverage-all": "jest --coverage --watchAll"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-jest": "^23.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "jest": "^23.1.0"
   },
   "dependencies": {
